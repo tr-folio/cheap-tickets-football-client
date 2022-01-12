@@ -4,6 +4,7 @@ import Tournaments from "./Tournaments";
 import Welcome from "./Welcome";
 import TopNews from "./TopNews";
 import TopPlayers from "./TopPlayers";
+import LargestStadium from "./LargestStadium";
 
 const Home = () => {
     return (
@@ -18,6 +19,8 @@ const Home = () => {
             <TopNews/>
             <br/> <br/>
             <TopPlayers/>
+            <br/> <br/>
+            <LargestStadium/>
         </div>
     )
 }
