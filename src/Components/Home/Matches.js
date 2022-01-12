@@ -6,7 +6,7 @@ const Matches = () => {
     const [matches, setMatches] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/get_matches')
+        fetch('https://secret-beach-25403.herokuapp.com/get_matches')
         .then(res => res.json())
         .then((data) => {
             setMatches(data)
