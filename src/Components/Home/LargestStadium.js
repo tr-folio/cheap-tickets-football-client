@@ -4,7 +4,7 @@ import "./HomeStyles/LargestStadium.css";
 const LargestStadium = () => {
     return (
         <div>
-            <h2 className="fw-bold fs-2">LargestStadium</h2>
+            <h2 className="fw-bold fs-2">Largest Stadium</h2>
             <div className="largest-stadium-container">
                 <img src="https://i.ibb.co/2nHQvFX/big-stadium.jpg" alt="" className="w-100 h-100"/>
             </div>

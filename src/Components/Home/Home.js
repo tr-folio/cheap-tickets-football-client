@@ -9,6 +9,7 @@ import TopCoaches from "./TopCoaches";
 import TrainingGround from "./TrainingGround";
 import Header from "../Shared/Header/Header";
 import Footer from "../Shared/Footer/Footer";
+import Matches from "./Matches";
 
 const Home = () => {
     return (
@@ -17,6 +18,8 @@ const Home = () => {
             <TopBanner/>
             <br/> <br/>
             <Welcome/>
+            <br/> <br/>
+            <Matches/>
             <br/> <br/>
             <Tournaments/>
             <br/> <br/>
