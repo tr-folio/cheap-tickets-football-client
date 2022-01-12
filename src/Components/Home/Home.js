@@ -5,11 +5,15 @@ import Welcome from "./Welcome";
 import TopNews from "./TopNews";
 import TopPlayers from "./TopPlayers";
 import LargestStadium from "./LargestStadium";
+import TopCoaches from "./TopCoaches";
+import TrainingGround from "./TrainingGround";
+import Header from "../Shared/Header/Header";
+import Footer from "../Shared/Footer/Footer";
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home.</h2>
+            <Header/>
             <TopBanner/>
             <br/> <br/>
             <Welcome/>
@@ -21,6 +25,12 @@ const Home = () => {
             <TopPlayers/>
             <br/> <br/>
             <LargestStadium/>
+            <br/> <br/>
+            <TopCoaches/>
+            <br/> <br/>
+            <TrainingGround/>
+            <br/> <br/>
+            <Footer/>
         </div>
     )
 }
