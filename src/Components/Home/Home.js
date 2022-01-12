@@ -2,6 +2,7 @@ import React from "react";
 import TopBanner from "./TopBanner";
 import Tournaments from "./Tournaments";
 import Welcome from "./Welcome";
+import TopNews from "./TopNews";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <br/> <br/>
             <Tournaments/>
             <br/> <br/>
+            <TopNews/>
         </div>
     )
 }
