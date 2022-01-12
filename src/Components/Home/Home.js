@@ -3,6 +3,7 @@ import TopBanner from "./TopBanner";
 import Tournaments from "./Tournaments";
 import Welcome from "./Welcome";
 import TopNews from "./TopNews";
+import TopPlayers from "./TopPlayers";
 
 const Home = () => {
     return (
@@ -15,6 +16,8 @@ const Home = () => {
             <Tournaments/>
             <br/> <br/>
             <TopNews/>
+            <br/> <br/>
+            <TopPlayers/>
         </div>
     )
 }
